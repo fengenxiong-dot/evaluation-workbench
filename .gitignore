@@ -59,7 +59,7 @@ dist/
 .dart_tool/
 .gradle/
 local.properties
-data/
+/data/
 server-data/
 workspace_data/
 uploads/

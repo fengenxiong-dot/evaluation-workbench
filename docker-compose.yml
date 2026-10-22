@@ -1,0 +1,11 @@
+name: pingjian
+
+services:
+  pingjian:
+    build: .
+    container_name: pingjian
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./server-data:/app/.data
